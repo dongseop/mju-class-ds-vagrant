@@ -81,3 +81,6 @@ website/www/Rakefile
 exec/
 
 lab/
+
+.sconsign.dblite
+[Bb]uild
