@@ -3,14 +3,13 @@ Vagrant와 VirtualBox를 이용한 실습 환경 구축
 
 ## 인스톨
 
-  1. github 가입 후 ssh key 등록 혹은 Github for Windows 설치
-    - Settings 메뉴 아래의 SSH-Key 항목 참고하여 키 생성 및 등록
-    - Github for Windows를 사용해도 됨. (https://windows.github.com/)
+  1. Github for Windows 설치 (https://windows.github.com/)
   2. install virtual box (https://www.virtualbox.org/wiki/Downloads)
   3. install vagrant (https://www.vagrantup.com/downloads.html)
-  4. `git clone git@github.com:dongseop/mju-class-ds-vagrant.git`
-  5. `cd mju-class-ds-vagrant`
-  6. `vagrant up`
+  4. Github에 회원 가입 후 로그인 하고 이 페이지에 다시 들어오세요.
+  5. 이 페이지 오른쪽에 "Clone in Desktop"이라는 버튼을 누르면 본인 컴퓨터에 이 저장소의 소스가 다운로드 됩니다. 본인이 작업할 디렉토리에다가 clone하면 됩니다.
+  6. `cd mju-class-ds-vagrant` 해서 다운 받은 디렉토리로 이동하세요.
+  6. `vagrant up` 이 명령을 수행하면 가상 머신이 하나 생성됩니다. 중간에 우분투 리눅스 이미지를 다운 받는 과정이 있어서 시간이 많이 걸리므로 네트워크 상태가 좋은 곳에서 실행하세요.
   7. 혹시 중간에 에러난 사람들은 다음 명령을 차례로 수행하세요.
     - `vagrant destroy`
     - `git pull`
