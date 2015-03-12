@@ -5,6 +5,7 @@ Vagrant와 VirtualBox를 이용한 실습 환경 구축
 
   1. Github for Windows 설치 (https://windows.github.com/)
   2. install virtual box (https://www.virtualbox.org/wiki/Downloads)
+     - 학과 일부 PC에서 4.3.12 버전만 정상적으로 동작하는 일이 있었습니다. 혹시 최신 버전 설치하고 제대로 아래 과정들이 안되는 경우, 최신 버전을 삭제하고 4.3.12 버전을 설치한 후 아래 과정들을 다시 실행해보세요.
   3. install vagrant (https://www.vagrantup.com/downloads.html)
   4. Github에 회원 가입 후 로그인 하고 이 페이지에 다시 들어오세요.
   5. 이 페이지 오른쪽에 "Clone in Desktop"이라는 버튼을 누르면 본인 컴퓨터에 이 저장소의 소스가 다운로드 됩니다. 본인이 작업할 디렉토리에다가 clone하면 됩니다.
