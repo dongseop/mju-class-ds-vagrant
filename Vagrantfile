@@ -68,5 +68,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get update
     sudo apt-get install -y scons
     sudo apt-get install -y git
+    sudo apt-get install -y check
+    sudo apt-get install -y xutils-dev
   SHELL
 end
