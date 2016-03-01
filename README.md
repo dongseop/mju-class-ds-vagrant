@@ -9,17 +9,18 @@ Vagrant와 VirtualBox를 이용한 실습 환경 구축
     
 ## 인스톨
 
-  1. Github Desktop 설치 (https://desktop.github.com/): 만일 Git 사용에 익숙하다면 terminal에서 git을 사용하는 것도 좋습니다. Linux나 Mac OS에서는 command line tool을 활용해보세요.
-  2. install virtual box (https://www.virtualbox.org/wiki/Downloads)
+  1. Git을 설치해주세요. (https://git-scm.com )
+  2. Github Desktop 설치 (https://desktop.github.com/): 만일 Git 사용에 익숙하다면 terminal에서 git을 사용하는 것도 좋습니다. Linux나 Mac OS에서는 command line tool을 활용해보세요.
+  3. install virtual box (https://www.virtualbox.org/wiki/Downloads)
      - 현재 최신 버전은 5.0.14입니다. 학과 일부 PC에서 4.3.12 버전만 정상적으로 동작하는 일이 있었습니다. 혹시 최신 버전 설치하고 제대로 아래 과정들이 안되는 경우, 최신 버전을 삭제하고 4.3.12 버전을 설치한 후 아래 과정들을 다시 실행해보세요.
      - VirtualBox는 자신의 컴퓨터 속에 가상의 컴퓨터를 실행할 수 있도록 하는 SW입니다.
-  3. install vagrant (https://www.vagrantup.com/downloads.html)
+  4. install vagrant (https://www.vagrantup.com/downloads.html)
      - 가상의 컴퓨터 설정이나 환경을 동일하게 맞춰줄 수 있는 프로그램입니다. 이 프로그램을 가지고 우리 실습용 환경을 모두 동일하게 유지하게 됩니다.
-  4. Github에 회원 가입 후 로그인 하고 이 페이지에 다시 들어오세요.
-  5. 이 페이지 오른쪽에 "Clone in Desktop"이라는 버튼을 누르면 본인 컴퓨터에 이 저장소의 소스가 다운로드 됩니다. 본인이 작업할 디렉토리에다가 clone하면 됩니다. 새로운 github 인터페이스에서는 상단의 clone 주소 옆에 컴퓨터로 다운받는 형태의 아이콘이 있습니다. 이 아이콘 누르면 디렉토리를 정할 수 있습니다. 가능하면 사용하기 좋도록 c:\projects\ 같은 디렉토리를 만들어서 정하시면 됩니다.
-  6. `cd mju-class-ds-vagrant` 해서 다운 받은 디렉토리로 이동하세요.
-  6. `vagrant up` 이 명령을 수행하면 가상 머신이 하나 생성됩니다. 중간에 우분투 리눅스 이미지를 다운 받는 과정이 있어서 시간이 많이 걸리므로 네트워크 상태가 좋은 곳에서 실행하세요.
-  7. 혹시 중간에 에러난 사람들은 다음 명령을 차례로 수행하세요.
+  5. Github에 회원 가입 후 로그인 하고 이 페이지에 다시 들어오세요.
+  6. 이 페이지 오른쪽에 "Clone in Desktop"이라는 버튼을 누르면 본인 컴퓨터에 이 저장소의 소스가 다운로드 됩니다. 본인이 작업할 디렉토리에다가 clone하면 됩니다. 새로운 github 인터페이스에서는 상단의 clone 주소 옆에 컴퓨터로 다운받는 형태의 아이콘이 있습니다. 이 아이콘 누르면 디렉토리를 정할 수 있습니다. 가능하면 사용하기 좋도록 c:\projects\ 같은 디렉토리를 만들어서 정하시면 됩니다.
+  7. `cd mju-class-ds-vagrant` 해서 다운 받은 디렉토리로 이동하세요.
+  8. `vagrant up` 이 명령을 수행하면 가상 머신이 하나 생성됩니다. 중간에 우분투 리눅스 이미지를 다운 받는 과정이 있어서 시간이 많이 걸리므로 네트워크 상태가 좋은 곳에서 실행하세요.
+  9. 혹시 중간에 에러난 사람들은 다음 명령을 차례로 수행하세요.
     - `vagrant destroy`
     - `git pull`
     - `vagrant up`
