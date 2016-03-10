@@ -24,13 +24,15 @@ Vagrant와 VirtualBox를 이용한 실습 환경 구축
 git clone https://github.com/dongseop/mju-class-ds-vagrant.git
       ```
       
-  7. `cd mju-class-ds-vagrant` 해서 다운 받은 디렉토리로 이동하세요.
+  7. `cd mju-class-ds-vagrant` 해서 다운 받은 디렉토리로 이동하세요. 혹은, 윈도 참색창에서 Git Bash Here 명령을 이용해서 Bash 창을 열고, `cd c:\projects\mju-class-ds-vagrant` 하셔도 되요.
   8. `vagrant up` 이 명령을 수행하면 가상 머신이 하나 생성됩니다. 중간에 우분투 리눅스 이미지를 다운 받는 과정이 있어서 시간이 많이 걸리므로 네트워크 상태가 좋은 곳에서 실행하세요.
   9. 혹시 중간에 에러난 사람들은 다음 명령을 차례로 수행하세요.
     - `vagrant destroy`
     - `git pull`
     - `vagrant up`
     - 문제가 없다면 vagrant ssh 했을 때 자동으로 접속되어야 합니다.
+  10. 이 때 화면 뒤에 VirtualBox의 화면에 우분투 터미널이 뜰텐데, 이 창은 무시하세요.
+  11. vagrant up을 했던 Git Bash 창에서 `vagrant ssh`를 하면 아래와 같이 서버에 접속이 됩니다.
 
 ## 사용법
   - 서버 접속: `vagrant ssh`
